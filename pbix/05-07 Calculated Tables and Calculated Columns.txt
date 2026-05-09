@@ -1,0 +1,7 @@
+Sales = UNION('US Sales', 'Other Countries Sales')
+
+Countries = VALUES(Sales[Country])
+
+Full Name = 'Sales Details'[First Name] & " "  & 'Sales Details'[Last Name]
+
+Line Total = 'Sales Details'[Quantity] * 'Sales Details'[Unit Price]

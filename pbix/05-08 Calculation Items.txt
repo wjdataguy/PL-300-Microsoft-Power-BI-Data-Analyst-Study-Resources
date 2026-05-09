@@ -1,0 +1,46 @@
+Time Intelligence
+
+Time Calculation
+
+Current = SELECTEDMEASURE()
+
+MTD = CALCULATE(SELECTEDMEASURE(), DATESMTD('Date'[Date]))
+
+PY = CALCULATE(SELECTEDMEASURE(), SAMEPERIODLASTYEAR('Date'[Date]))
+
+PY MTD = 
+CALCULATE(
+    SELECTEDMEASURE(),
+    SAMEPERIODLASTYEAR('Date'[Date]),
+    'Time Intelligence'[Time Calculation] = "MTD"
+)
+
+PY YTD = 
+CALCULATE(
+    SELECTEDMEASURE(),
+    SAMEPERIODLASTYEAR('Date'[Date]),
+    'Time Intelligence'[Time Calculation] = "YTD"
+)
+
+QTD = CALCULATE(SELECTEDMEASURE(), DATESQTD('Date'[Date]))
+
+YOY = 
+SELECTEDMEASURE() -
+CALCULATE(
+    SELECTEDMEASURE(),
+    'Time Intelligence'[Time Calculation] = "PY"
+)
+
+YOY% = 
+DIVIDE(
+    CALCULATE(
+        SELECTEDMEASURE(),
+        'Time Intelligence'[Time Calculation]="YOY"
+    ),
+    CALCULATE(
+        SELECTEDMEASURE(),
+        'Time Intelligence'[Time Calculation]="PY"
+    )
+)
+
+YTD = CALCULATE(SELECTEDMEASURE(), DATESYTD('Date'[Date]))
