@@ -1,5 +1,5 @@
 # PL-300-Microsoft-Power-BI-Data-Analyst-Study-Resources
-This repository is used to house various resources that may help you prepare for Exam PL-300: Microsoft Power BI Data Analyst. These resources may be referenced in the course videos, but it IS NOT NECESSARY to follow along with all these files during the lessons. The files are provided just in case you want to try a few things out for yourself. 
+This repository is used to house various resources that may help you prepare for **Exam PL-300: Microsoft Power BI Data Analyst**. These resources may be referenced in the course videos, but it **IS NOT NECESSARY** to follow along with all these files during the lessons. The files are provided just in case you want to try a few things out for yourself. 
 
 Here is a description of each of the directories:
 
