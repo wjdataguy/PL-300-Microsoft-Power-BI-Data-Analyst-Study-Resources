@@ -1,0 +1,32 @@
+Budget by Category
+
+Year	Month	Bikes	Clothing	Components	Accessories
+
+2021	January	500	500	500	500
+	February	600	600	600	600
+	March	800	800	800	800
+	April	500	500	500	500
+	May	300	300	300	300
+	June	200	200	200	200
+	July	500	500	500	500
+	August	600	600	600	600
+	September	800	800	800	800
+	October	500	500	500	500
+	November	300	300	300	300
+	December	200	200	200	200
+
+2022	January	500	500	500	500
+	February	600	600	600	600
+	March	800	800	800	800
+	April	500	500	500	500
+	May	300	300	300	300
+	June	200	200	200	200
+	July	500	500	500	500
+	August	600	600	600	600
+	September	800	800	800	800
+	October	500	500	500	500
+	November	300	300	300	300
+	December	200	200	200	200
+
+
+End of report
